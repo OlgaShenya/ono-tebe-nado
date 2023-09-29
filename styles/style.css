@@ -1,10 +1,7 @@
 /* место для вашего кода */
-body {
-  /* width: 1440px; */
-}
 
-section,
 header,
+section,
 footer {
   padding: 0 3.47%;
 }
@@ -22,8 +19,6 @@ footer {
 }
 
 .header__menu {
-  /* width: 388px; */
-  /* height: 23px; */
   align-self: center;
 }
 
@@ -334,4 +329,10 @@ footer {
   display: block;
   width: 48px;
   height: 48px;
+}
+
+.footer__menu-link_active,
+.header__link_active {
+  pointer-events: none;
+  text-decoration: none;
 }
